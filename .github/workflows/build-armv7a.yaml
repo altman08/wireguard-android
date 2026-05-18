@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
         #  repository: zhcode-fun/wireguard-android #使用zhcode-fun大佬的wireguard-android仓库
-         ref: dev-v1.0.20231018
+         ref: master
          submodules: true
       - name: 设置JDK环境
         uses: actions/setup-java@v4
